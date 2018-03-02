@@ -8,6 +8,7 @@
     <title>Pig Dice</title>
   </head>
   <body>
+    <div class="rules">
     <h1>Pig Dice</h1>
       <h2>How to play:</h2>
       <p>Two players roll the dice. Player 1 plays first and his total is added up until he reaches a total of 100.</p>
@@ -16,6 +17,26 @@
         <li>If two 1's are rolled, the player's entire score is lost, and the turn ends.</li>
         <li>If a double is rolled, the point total is added to the turn total, but the player <strong>MUST</strong> roll again.</li>
       </ul>
+    </div>
+      <div class="row">
+        <div class="col-md-5">
+          <h2>Player 1</h2>
+          <div id="dice1" class="dice"></div>
+            <div id="dice2" class="dice"></div>
+          <button onclick()="rollDice()"id="dice1">Let's roll!</button>
+
+          </div>
+
+
+
+          <div class="col-md-5">
+            <h2>Player 2</h2>
+            <div id="dice1" class="dice"></div>
+              <div id="dice2" class="dice"></div>
+            <button onclick()="rollDice()"id="dice1">Let's roll!</button>
+
+            </div>
+          </div>
 
   </body>
 </html>
