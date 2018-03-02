@@ -1,10 +1,17 @@
 
 function rollDice() {
-  var die1 = document.getElementById("die1");
-  var status = document.getElementById("status");
+  var roll = Math.floor(Math.random() * 6) + 1;
+  var total = document.getElementById('status').value;
+  $("#die1").append(roll);
+  console.log(roll);
 
-  var d1 = Math.floor(Math.random() * 6) + 1;
-
-  die1.innerHTML = d1;
-  status.innerHTML = "You rolled" + d1
 }
+
+$(document).ready(function() {
+  $("#player1roll").click(function(event){
+    event.preventDefault();
+
+    rollDice();
+
+  })
+});
