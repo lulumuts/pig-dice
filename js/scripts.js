@@ -3,8 +3,11 @@ function rollDice() {
   var roll = Math.floor(Math.random() * 6) + 1;
   $("#die1").text(roll);
   $("#status").text(roll+total);
-
-console.log(roll);
+  if (roll != 1){
+    total= total + roll;
+  }
+  return total
+console.log(total);
 }
 
 function rollDice2(){
