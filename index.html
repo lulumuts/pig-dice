@@ -9,21 +9,22 @@
     <title>Pig Dice</title>
   </head>
   <body>
-    <div class="rules">
-    <h1>Pig Dice</h1>
-      <h2>How to play:</h2>
-      <h3>Two players roll the dice. Player 1 plays first and their total is added up until he reaches a total of 100.</h3>
+
+    <h1>PIG DICE</h1>
+      <div class="rules">
+      <h3><strong id="rule">RULES:</strong>    Two players roll the dice. Player 1 plays first and their total is added up until he reaches a total of 100.</h3>
       <ul>
         <li>If either player rolls 1, there turn is over and they score nothing.</li>
         <li>If two 1's are rolled, the player's entire score is lost, and the turn ends.</li>
         <li>If a double is rolled, the point total is added to the turn total, but the player <strong>MUST</strong> roll again.</li>
       </ul>
     </div>
+    <section>
       <div class="row">
         <div class="col-md-5">
           <h2>Player 1</h2>
           <div id="die1" class="dice">0</div>
-          <button id="player1roll">Let's roll!</button>
+          <button id="player1roll">ROLL!</button>
 
           <p id="status"><strong>TOTAL:</strong></p>
           </div>
@@ -34,12 +35,12 @@
             <h2>Player 2</h2>
 
               <div id="die2" class="dice">0</div>
-              <button id="player2roll">Let's roll!</button>
+              <button id="player2roll">ROLL!</button>
               <p id="status2"><strong>TOTAL:</strong></p>
 
 
             </div>
           </div>
-
+</section>
   </body>
 </html>

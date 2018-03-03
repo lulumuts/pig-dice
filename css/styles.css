@@ -1,3 +1,12 @@
+body{
+  background-image: url("../img/pig.png");
+  background-repeat: no-repeat;
+  z-index:100;
+  background-color: pink
+  color: black;
+
+}
+
 .row {
   text-align: center;
   margin-left: 20vh;
@@ -10,27 +19,62 @@
 }
 
 h1{
-  font-size: 17vh;
-  padding-bottom: 5vh;
+  font-size: 25vh;
+  /* padding-bottom: 2%; */
+  margin-left: 61vh;
 }
 
 h2{
-  padding-bottom: 6vh;
+  padding-bottom: 4vh;
   font-size: 6vh;
+  margin-left: 15vh;
+  margin-top: 5vh;
+}
+
+h3{
+  padding-bottom: 5vh;
+  margin-top: 19vh;
+
 }
 .dice{
-  padding-top: 3vh;
-  padding-bottom: 3vh;
+  padding-top: 7vh;
+  padding-bottom: 7vh;
   font-size: 10vh;
+  background-color: black;
+  margin-left: 20vh;
+  margin-right: 10vh;
+  text-align: center;
 
 }
 p{
   padding-top: 4vh;
   padding-bottom: 10vh;
   font-size: 3vh;
+  margin-left: 10vh;
 }
 
 button{
+  margin-top: 4vh;
   font-size: 3vh;
   padding:1vh;
+  color: black;
+  background-color: lightgrey;
+  border-radius: 30vh;
+  margin-left: 10vh;
+}
+#die1{
+border-radius: 30vh;
+}
+#die2{
+border-radius: 30vh;
+}
+#rule{
+  font-size: 10vh;
+  color:black;
+
+}
+
+section{
+  background-image: url("../img/pig.png");
+  background-repeat: space;
 }
