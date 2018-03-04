@@ -2,7 +2,7 @@ body{
   background-image: url("../img/pig.png");
   background-repeat: no-repeat;
   z-index:100;
-  background-color: pink
+  background-color: mistyrose;
   color: black;
 
 }
@@ -20,15 +20,16 @@ body{
 
 h1{
   font-size: 25vh;
-  /* padding-bottom: 2%; */
+  padding-bottom: 2%;
   margin-left: 61vh;
 }
 
 h2{
-  padding-bottom: 4vh;
+  padding-bottom: 2vh;
   font-size: 6vh;
-  margin-left: 15vh;
-  margin-top: 5vh;
+  margin-left: 25vh;
+  margin-top: -3vh;
+  color: grey;
 }
 
 h3{
@@ -40,7 +41,7 @@ h3{
   padding-top: 7vh;
   padding-bottom: 7vh;
   font-size: 10vh;
-  background-color: black;
+  background-color: white;
   margin-left: 20vh;
   margin-right: 10vh;
   text-align: center;
@@ -52,6 +53,7 @@ p{
   font-size: 3vh;
   margin-left: 10vh;
 }
+
 
 button{
   margin-top: 4vh;
